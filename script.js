@@ -3,7 +3,7 @@ const form = document.getElementById("formEl");
 const search = document.getElementById("search");
 
 
-const apikey = 'ccf520a00309bc954f35d5de3ca08c92';
+const apikey = ' Your API Key ';
 const url = (city) => `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apikey}`;
 
 async function getWeather(city) {
